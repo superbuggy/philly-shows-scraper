@@ -1,0 +1,28 @@
+{
+  "name": "scrape-or-die",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -w -p ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "trustedDependencies": [
+    "puppeteer"
+  ],
+  "devDependencies": {
+    "@types/user-agents": "^1.0.3",
+    "chokidar": "^3.5.3",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "puppeteer": "^21.5.2",
+    "user-agents": "^1.1.11",
+    "write-json-file": "^5.0.0"
+  }
+}
